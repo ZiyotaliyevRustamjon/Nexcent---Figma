@@ -1,0 +1,440 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container .headerBar {
+  background-color: #F5F7FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+}
+.container .headerBar .navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.container .headerBar .navBar a {
+  font-family: sans-serif;
+  color: #18191F;
+}
+.container .headerBar .navBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.container .headerBar .navBtns a {
+  font-family: sans-serif;
+  color: #4CAF4F;
+}
+.container .headerBar .navBtns .navBtn2 {
+  background-color: #4CAF4F;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.container .heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 100px;
+  background-color: #F5F7FA;
+}
+.container .heroSection .textBar {
+  width: 53%;
+}
+.container .heroSection .textBar h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  color: #4D4D4D;
+}
+.container .heroSection .textBar h1 span {
+  color: #4CAF4F;
+}
+.container .heroSection .textBar p {
+  font-size: 15px;
+  color: #717171;
+  margin: 10px 0;
+  font-family: sans-serif;
+}
+.container .heroSection .textBar button {
+  padding: 10px 30px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4CAF4F;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.container .heroSection .imgBar {
+  width: 35%;
+}
+.container .ourSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+.container .ourSection .ourText {
+  font-size: 36px;
+  font-weight: 500;
+  color: #4D4D4D;
+}
+.container .ourSection .ourText2 {
+  color: #717171;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.container .ourSection .logoBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .systemSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 100px;
+}
+.container .systemSection .sysTitle {
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.container .systemSection .sysTitle1 {
+  color: #717171;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.container .systemSection .systemCardBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .systemSection .systemCardBar .card {
+  width: 30%;
+  height: 300px;
+  box-shadow: 0 2px 4px 0 rgba(171, 190, 209, 0.5137254902);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .systemSection .systemCardBar .card h1 {
+  font-family: sans-serif;
+  font-size: 36px;
+}
+.container .systemSection .systemCardBar .card p {
+  color: #717171;
+}
+.container .phoneBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+}
+.container .phoneBar .phonImg {
+  width: 35%;
+}
+.container .phoneBar .phonText {
+  width: 60%;
+}
+.container .phoneBar .phonText h1 {
+  color: #4D4D4D;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.container .phoneBar .phonText p {
+  font-family: sans-serif;
+  color: #717171;
+  font-size: 16px;
+  margin: 20px 0;
+  width: 90%;
+}
+.container .phoneBar .phonText .phonBtns {
+  background-color: #4CAF4F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+.container .helpingSection {
+  background-color: #F5F7FA;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .helpingSection .helpTextBar {
+  width: 45%;
+}
+.container .helpingSection .helpTextBar h1 {
+  font-size: 36px;
+  font-family: sans-serif;
+  color: #4D4D4D;
+}
+.container .helpingSection .helpTextBar h1 span {
+  color: #4CAF4F;
+}
+.container .helpingSection .helpTextBar p {
+  font-family: sans-serif;
+  color: #18191F;
+  margin-top: 10px;
+}
+.container .helpingSection .helpIconBar {
+  width: 45%;
+}
+.container .helpingSection .helpIconBar .iconBar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container .helpingSection .helpIconBar .iconBar .card {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.container .helpingSection .helpIconBar .iconBar .card div .icon {
+  font-size: 35px;
+  color: #4CAF4F;
+}
+.container .helpingSection .helpIconBar .iconBar .card div h2 {
+  color: #4D4D4D;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+.container .helpingSection .helpIconBar .iconBar .card div p {
+  color: #717171;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+.container .footerTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 100px;
+  background-color: #F5F7FA;
+  text-align: center;
+}
+.container .footerTop h1 {
+  font-size: 64px;
+  font-family: sans-serif;
+  color: #263238;
+}
+.container .footerTop button {
+  padding: 15px 30px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4CAF4F;
+  font-family: sans-serif;
+  color: #fff;
+  margin-top: 30px;
+}
+.container .footerBar {
+  padding: 60px 100px;
+  background-color: #263238;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.container .footerBar .footerEl {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .footerBar .footerEl h3 {
+  color: #fff;
+  font-family: sans-serif;
+}
+.container .footerBar .footerEl a {
+  color: rgba(255, 255, 255, 0.3960784314);
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.container .footerBar .footerEl .foInputText {
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-family: sans-serif;
+}
+.container .footerBar .footerEl .foInputText::-moz-placeholder {
+  color: #fff;
+}
+.container .footerBar .footerEl .foInputText::placeholder {
+  color: #fff;
+}
+.container .footerBar .box1 {
+  width: 40%;
+}
+.container .footerBar .box1 .copyright {
+  color: rgba(245, 247, 250, 0.5607843137);
+  font-family: sans-serif;
+  margin: 10px 0;
+}
+.container .footerBar .box1 .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container .footerBar .box1 .socials a {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2549019608);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #fff;
+  transition: 0.5s;
+}
+.container .footerBar .box1 .socials a:hover {
+  background-color: #4CAF4F;
+}
+
+@media (max-width: 1024px) {
+  .container .headerBar {
+    padding: 15px 30px;
+  }
+  .container .headerBar .navBar {
+    gap: 20px;
+  }
+  .container .headerBar .navBtns {
+    gap: 20px;
+  }
+  .container .heroSection {
+    padding: 50px 30px;
+  }
+  .container .heroSection .textBar h1 {
+    font-size: 50px;
+  }
+  .container .systemSection {
+    padding: 30px;
+  }
+  .container .systemSection .systemCardBar .card h1 {
+    font-size: 25px;
+  }
+  .container .phoneBar {
+    padding: 40px 30px;
+  }
+  .container .helpingSection {
+    padding: 40px 30px;
+  }
+  .container .footerTop {
+    padding: 50px 30px;
+  }
+  .container .footerBar {
+    padding: 60px 30px;
+  }
+}
+@media (max-width: 425px) {
+  .container .headerBar {
+    flex-direction: column;
+  }
+  .container .headerBar .navBar {
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .container .headerBar .navBar a {
+    font-size: 14px;
+  }
+  .container .headerBar .navBtns .navBtn2 {
+    background: transparent;
+    padding: 0;
+    color: #4CAF4F;
+  }
+  .container .heroSection {
+    flex-direction: column-reverse;
+  }
+  .container .heroSection .textBar {
+    width: 100%;
+  }
+  .container .heroSection .textBar h1 {
+    font-size: 35px;
+  }
+  .container .heroSection .imgBar {
+    width: 100%;
+  }
+  .container .ourSection {
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+  .container .systemSection .sysTitle {
+    font-size: 25px;
+  }
+  .container .systemSection .systemCardBar {
+    flex-direction: column;
+  }
+  .container .systemSection .systemCardBar .card {
+    width: 100%;
+  }
+  .container .phoneBar {
+    flex-direction: column;
+  }
+  .container .phoneBar .phonImg {
+    width: 100%;
+  }
+  .container .phoneBar .phonText {
+    width: 100%;
+  }
+  .container .phoneBar .phonText h1 {
+    font-size: 25px;
+  }
+  .container .phoneBar .phonText p {
+    width: 100%;
+  }
+  .container .helpingSection {
+    padding: 30px;
+    flex-direction: column;
+  }
+  .container .helpingSection .helpTextBar {
+    width: 100%;
+  }
+  .container .helpingSection .helpTextBar h1 {
+    font-size: 30px;
+  }
+  .container .helpingSection .helpIconBar {
+    width: 100%;
+  }
+  .container .helpingSection .helpIconBar .iconBar .card div h2 {
+    font-size: 20px;
+  }
+  .container .footerTop h1 {
+    font-size: 30px;
+  }
+  .container .footerBar {
+    flex-direction: column;
+  }
+  .container .footerBar .footerEl {
+    margin: 20px 0;
+  }
+  .container .footerBar .box1 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

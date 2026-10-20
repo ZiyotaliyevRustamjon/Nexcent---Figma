@@ -1,0 +1,503 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    .headerBar {
+        background-color: #F5F7FA;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 100px;
+        .navBar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            a {
+                font-family: sans-serif;
+                color: #18191F;
+            }
+        }
+        .navBtns {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            a {
+                font-family: sans-serif;
+                color: #4CAF4F;
+            }
+            .navBtn2 {
+                background-color: #4CAF4F;
+                color: #fff;
+                padding: 10px 30px;
+                border-radius: 10px;
+                
+            }
+        }
+    }
+    .heroSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 70px 100px;
+        background-color: #F5F7FA;
+        .textBar {
+            width: 53%;
+            h1 {
+                font-size: 60px;
+                font-family: sans-serif;
+                color: #4D4D4D;
+                span {
+                    color: #4CAF4F;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                color: #717171;
+                margin: 10px 0;
+                font-family: sans-serif;
+            }
+            button {
+                padding: 10px 30px;
+                border-radius: 6px;
+                border: none;
+                background-color: #4CAF4F;
+                color: #fff;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+        }
+
+        .imgBar {
+            width: 35%;
+        }
+    }
+    .ourSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 100px;
+        .ourText{
+            font-size: 36px;
+            font-weight: 500;
+            color: #4D4D4D;
+        }
+        .ourText2 {
+            color: #717171;
+            font-family: sans-serif;
+            font-size: 15px;
+            margin: 10px 0;
+        }
+
+        .logoBar {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+    }
+
+    .systemSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 100px;
+        .sysTitle {
+            font-weight: 500;
+            font-family: sans-serif;
+
+        }
+        .sysTitle1 {
+            color: #717171;
+            font-family: sans-serif;
+            margin-top: 10px;
+        }
+
+        .systemCardBar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            .card {
+                width: 30%;
+                height: 300px;
+                box-shadow: 0 2px 4px 0 #abbed183;
+                border-radius: 15px;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+                h1 {
+                    font-family: sans-serif;
+                    font-size: 36px;
+                    
+                }
+                p {
+                    color: #717171;
+                }
+            }
+        }
+    }
+
+    .phoneBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 100px;
+        .phonImg {
+            width: 35%;
+        }
+        .phonText {
+            width: 60%;
+            h1 {
+                color: #4D4D4D;
+                font-family: sans-serif;
+                font-weight: 700;
+            }
+            p {
+                font-family: sans-serif;
+                color: #717171;
+                font-size: 16px;
+                margin: 20px 0;
+                width: 90%;
+            }
+            .phonBtns {
+                background-color: #4CAF4F;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 30px;
+            }
+        }
+    }
+    
+    .helpingSection {
+        background-color: #F5F7FA;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .helpTextBar {
+            width: 45%;
+            h1 {
+                font-size: 36px;
+                font-family: sans-serif;
+                color: #4D4D4D;
+                span {
+                    color: #4CAF4F;
+                }
+            }
+            p {
+                font-family: sans-serif;
+                color: #18191F;
+                margin-top: 10px;
+            }
+        }
+        .helpIconBar {
+            width: 45%;
+            .iconBar {
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                .card {
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 20px;
+                    div {
+                        .icon {
+                            font-size: 35px;
+                            color: #4CAF4F;
+                        }
+                        h2 {
+                            color: #4D4D4D;
+                            font-family: sans-serif;
+                            font-size: 28px;
+                        }
+                        p {
+                            color: #717171;
+                            font-family: sans-serif;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .footerTop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 60px 100px;
+        background-color: #F5F7FA;
+        text-align: center;
+        h1 {
+            font-size: 64px;
+            font-family: sans-serif;
+            color: #263238;
+        }
+        button {
+            padding: 15px 30px;
+            border-radius: 6px;
+            border: none;
+            background-color: #4CAF4F;
+            font-family: sans-serif;
+            color: #fff;
+            margin-top: 30px;
+        }
+    }
+
+    .footerBar {
+        padding: 60px 100px;
+        background-color: #263238;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .footerEl {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 10px;
+            h3 {
+                color: #fff;
+                font-family: sans-serif;
+            }
+            a {
+                color: #ffffff65;
+                font-family: sans-serif;
+                font-size: 16px;
+            }
+
+            .foInputText {
+                padding: 10px;
+                width: 100%;
+                background-color: #ffffff80;
+                border: none;
+                outline: none;
+                border-radius: 7px;
+                font-family: sans-serif;
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+        }
+        .box1 {
+            width: 40%;
+            .copyright {
+                color: #f5f7fa8f;
+                font-family: sans-serif;
+                margin: 10px 0 ;
+            }
+
+            .socials {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+                a {
+                    width: 40px;
+                    height: 40px;
+                    background-color: #ffffff41;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    font-size: 18px;
+                    color: #fff;
+                    transition: 0.5s;
+                    &:hover {
+                        background-color: #4CAF4F;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// //////////////////////////// MEDIA QUERY //////////////////////////////////
+
+
+@media (max-width: 1024px) {
+    .container {
+        .headerBar {
+            padding: 15px 30px;
+            .navBar {
+                gap: 20px;
+            }
+            .navBtns {
+                gap: 20px;
+            }
+        }
+
+        .heroSection {
+            padding: 50px 30px;
+            .textBar {
+                h1 {
+                    font-size: 50px;
+                }
+            }
+        }
+
+        .systemSection {
+            padding: 30px;
+            .systemCardBar {
+                .card {
+                    h1 {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+
+        .phoneBar {
+            padding: 40px 30px;
+        }
+
+        .helpingSection {
+            padding: 40px 30px;
+        }
+
+        .footerTop {
+            padding: 50px 30px;
+        }
+
+        .footerBar {
+            padding: 60px 30px;
+        }
+    }
+}
+
+
+@media (max-width: 425px) {
+    .container {
+        .headerBar {
+            flex-direction: column;
+            .navBar {
+                gap: 10px;
+                margin: 10px 0;
+                a {
+                    font-size: 14px;
+                }
+            }
+
+            .navBtns {
+                .navBtn2 {
+                    background: transparent;
+                    padding: 0;
+                    color: #4CAF4F;
+                }
+            }
+        }
+
+        .heroSection {
+            flex-direction: column-reverse;
+            .textBar {
+                width: 100%;
+                h1 {
+                    font-size: 35px;
+                }
+            }
+            .imgBar {
+                width: 100%;
+            }
+        }
+
+        .ourSection {
+            padding: 30px;
+            flex-wrap: wrap;
+        }
+
+        .systemSection {
+            .sysTitle {
+                font-size: 25px;
+            }
+            .systemCardBar {
+                flex-direction: column;
+                .card {
+                    width: 100%;
+                }
+            }
+        }
+
+        .phoneBar {
+            flex-direction: column;
+            .phonImg {
+                width: 100%;
+            }
+            .phonText {
+                width: 100%;
+                h1 {
+                    font-size: 25px;
+                }
+                p {
+                    width: 100%;
+                }
+            }
+        }
+
+        .helpingSection {
+            padding: 30px;
+            flex-direction: column;
+            .helpTextBar {
+                width: 100%;
+                h1 {
+                    font-size: 30px;
+                }
+            }
+            .helpIconBar {
+                width: 100%;
+                .iconBar {
+                    .card {
+                        div {
+                            h2 {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .footerTop {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .footerBar {
+            flex-direction: column;
+            .footerEl {
+                margin: 20px 0;
+            }
+            .box1 {
+                width: 100%;
+            }
+        }
+    }
+}
